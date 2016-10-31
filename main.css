@@ -1,0 +1,364 @@
+body{
+    margin: 0 auto;
+    font-family: verdana;
+    background-color: rgb(201,201,201);
+    
+    }
+
+.companyDiv{
+ float: left; 
+  width: 250px;
+    margin-left: 15px;
+    
+}
+
+.navDiv{
+ float:right;  
+ margin-right: 10px;
+}
+#containerPage{
+    min-width: 650px;
+    max-width: 950px;
+    background-color: rgb(247,247,245);
+    margin: 0 auto;
+  
+  
+    border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d7;
+    -moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	padding: 32px 25px 50px 25px;
+	margin-bottom: 50px;
+}
+
+    .box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d7;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	padding: 32px 25px 0 25px;
+	margin-bottom: 50px;
+	}
+
+.slide{
+    margin: 16px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d7;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	padding: 15px 25px 25px 25px;
+	margin-bottom: 25px;
+    height: 250px;
+    margin-top: 0px;
+        
+}
+
+.bottomSlide{
+    margin: 16px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d7;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.13);
+	padding: 15px 25px 25px 25px;
+	margin-bottom: 25px;
+    height: 250px;
+    margin-top: 10px;
+   
+}
+
+
+
+h4{ 
+    background: none;
+    background: -webkit-linear-gradient(rgb(115,13,16),rgb(115,13,16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    padding-bottom: 0px;
+    padding-left: 0%;
+    font-family: Palatino;
+    font-style:none;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    width: 450px;
+   
+
+}
+
+h4:visited {
+    color: #1e451b;
+    text-decoration-line:none;
+    
+}
+
+h6{
+    
+    background:none;
+    color:#888;
+    justify-content: right;
+    margin-top: 0;
+    margin-left:5%;
+    padding-top: 3px;
+    font-weight: 500;
+    font-family: Helvetica;
+    font-size: 75%;
+    
+}
+
+h7{
+    
+    background:none;
+    color:#888;
+    justify-content: left;
+    margin-top: 2px;
+    margin-left:7px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 60%;
+    
+}
+
+.md{
+    display:inline-flex;
+    background:none;
+    color:#888;
+    justify-content:space-between;
+    margin-top: 10;
+    margin-left:4%;
+    padding-top: 0px;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 60%;
+    border-bottom: 20px;
+}
+
+.titlebar{
+    clear:both;
+    background:#1e451b;
+    background: rgb(126, 39, 41);
+    border: none;
+    color:ghostwhite;
+    font-family:verdana;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-size: 70%;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px;
+    
+    
+}
+
+.footerBar{
+    clear:both;
+    /*background: rgb(126, 39, 41);*/
+    border: none;
+    color:grey;
+    font-family:verdana;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-size: 70%;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px;
+    
+    
+}
+
+.titlePhone{
+    float: right;
+    padding-right: 40px;
+}
+
+.footerEmail{
+    float: right
+}
+
+
+.cardLeft{
+    width: 220px;
+    
+    text-align: justify;
+    float: left;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 90%;
+}
+
+.cardTop{
+    margin-bottom: 10px;
+}
+
+.cardBottom{
+   font-size: 10pt;
+    color: rgb(96,96,96);
+    font-family: "Hevetica Neue";
+    font-weight: 400;
+    line-height: 1.5
+    
+}
+
+.cardTitle{
+    font-family: "Georgia";
+    color: rgb(96,96,96);
+    font-size: 16pt;
+    font-weight: 400; 
+    padding-bottom: 0px;
+    text-align: center;
+    margin-right: 120px;
+
+}
+
+.cardBody{
+    padding-bottom: 7px;
+    background:none;
+    color:#888;
+    justify-content: left;
+    margin-top: 0px;
+    margin-left:20px;
+    padding-top: 3px;
+    font-weight: 400;
+    font-family: Helvetica Nue;
+    font-size: 90%;
+    font-size: 11pt;
+    
+}
+
+.cardSubTitle{
+    
+    background:none;
+    color:black;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left:20px;
+    padding-top: 0px;
+    font-weight: 400;
+    font-family: Helvetica Nue;
+    font-size: 90%;
+    font-size: 11pt;
+    
+}
+
+.rightColumn{
+    text-align: justify;
+    float: right;
+    width: 300px;
+    overflow: hidden;
+    font-size: 90%;
+}
+
+
+header{
+    
+}
+
+footer{
+    padding-left: 20px;
+}
+
+nav{
+margin-bottom: 0px;
+    padding-top: 0px;
+}
+nav ul{
+    background: none;
+    margin-left:0%;
+    
+    padding:0 20px 0 0;
+    display: inline;
+    font-family: verdana;
+    font-weight: 400;
+}
+
+
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left:10px;
+    
+    padding:5px 6px 5px 6px;
+    text-decoration-style: wavy;
+    font-size: 80%;
+    
+}
+
+
+a{
+color:#444
+}
+
+a:link {
+    /*color: ##444;*/
+    color:gray;
+    text-decoration-line:none;
+    text-decoration: none;
+}
+
+/* visited link 
+a:visited {
+    color: #444;
+    text-decoration-line:none;
+}*/
+
+/* mouse over link */
+a:hover {
+   text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    text-decoration-line:none;
+}
+
+a.selected{
+    font-weight: 400;
+    background: rgb(115,13,16);
+  
+    color: white;
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    text-decoration:none;
+}
+
+a.companyName:active{
+    color = color:;
+    margin: 0px;
+}
+
