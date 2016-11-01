@@ -215,7 +215,19 @@ h7{
     padding-right: 0px;
     padding-left: 5px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
+    font-size: 90%;
+}
+
+.cardLeftForPlanImage{
+    width: 320px;
+    
+    text-align: justify;
+    float: left;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 90%;
 }
 
@@ -257,6 +269,7 @@ h7{
     font-size: 11pt;
     
 }
+
 
 .cardSubTitle{
     
