@@ -7,9 +7,10 @@ body{
 
 .companyDiv{
  /*float: left; */
-  width: 400px;
-    margin-left: 15px;
-    margin-top: 0px;
+  width: 560px;
+  margin-left: 15px;
+  margin-top: 0px;
+  display:inline-flex;
     
 }
 
@@ -156,13 +157,15 @@ h7{
     background:none;
     color:#888;
     justify-content:space-between;
-    margin-top: 10;
-    margin-left:4%;
+    margin-top: 0px;
+    
+    margin-bottom: 10px;
     padding-top: 0px;
     font-weight: 400;
     font-family: Helvetica;
     font-size: 60%;
     border-bottom: 0px;
+    
 }
 
 .titlebar{
@@ -347,7 +350,7 @@ nav ul li{
 
 
 a{
-color:#444
+color:#444;
 }
 
 a:link {
@@ -356,6 +359,7 @@ a:link {
     text-decoration-line:none;
     text-decoration: none;
     
+
 }
 
 /* visited link 
